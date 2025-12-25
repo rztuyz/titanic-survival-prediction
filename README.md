@@ -1,17 +1,17 @@
-## Запуск проекта
+## Project launch
 
-1.**Установка uv** 
+1.**UV installation** 
 
 ```cmd
 pip install uv
 ```
-2.**Клонирование репозитория**
+2.**Cloning a repository**
 
 ```cmd
 git clone https://github.com/rztuyz/titanic-survival-prediction
 cd titanic-survival-prediction
 ```
-3.**Установка зависимостей**
+3.**Installing dependencies**
 
 ```cmd
 uv sync
@@ -22,6 +22,7 @@ uv sync
 The repository is organized to reflect a complete machine learning workflow,
 from raw data exploration to feature engineering and model training.
 
+```text
 .
 ├── data/
 │   ├── raw/                # Original raw dataset
@@ -45,5 +46,6 @@ from raw data exploration to feature engineering and model training.
 ├── README.md               # Project description and documentation
 ├── pyproject.toml          # Project dependencies
 ├── uv.lock                 # Dependency lock file
-├── main.py                 
+├── main.py                 # Entry point (optional / future use)
 └── .gitignore
+```
