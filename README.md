@@ -46,6 +46,6 @@ from raw data exploration to feature engineering and model training.
 ├── README.md               # Project description and documentation
 ├── pyproject.toml          # Project dependencies
 ├── uv.lock                 # Dependency lock file
-├── main.py                 # Entry point (optional / future use)
+├── main.py                 
 └── .gitignore
 ```
